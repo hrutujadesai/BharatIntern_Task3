@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+.logo img {
+    height: 70px;
+    border-radius: 70px;
+    padding: 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navItem a {
+    margin: 0px 15px;
+    text-decoration: none;
+    color: black;
+    
+    /* transition: transforms 0.2s; */
+
+}
+
+a:hover {
+    transition: transforms 0.2s;
+    transform: scale(1.2);
+    background-color: black;
+    color:whitesmoke;
+}
+
+
+.nav h3 {
+    margin: 0%;
+    transition: transform 0.1s;
+}
+.nav h3:hover{
+    transform:scale(1.1) ;
+    color:blanchedalmond;
+
+}
+
+.myName {
+    background-color:black;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.myName h1 {
+    padding: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 90px;
+    color: whitesmoke;
+}
+
+.myName p {
+    margin-bottom: 70px;
+    text-align: center;
+    padding: 20px 200px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: whitesmoke;
+}
+
+button {
+    border-radius: 10px;
+    margin: 50px;
+    padding: 15px 60px;
+    border-color: aliceblue;
+    transition: transform 0.2s;
+}
+.myName button:hover
+{
+    transform: scale(1.2);
+    background-color: black;
+    color:whitesmoke ;
+}
+
+.aboutMe {
+    font-size: 20px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+
+}
+
+.aboutMe h2 {
+    padding: 25px;
+}
+
+hr {
+    background-color:black;
+    width: 50px;
+    height: 5px;
+    border-radius: 5px;
+}
+
+.aboutMe p {
+    margin: 50px;
+}
+
+.section {
+    display: flex;
+    background-color:gray;
+}
+
+.section p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:13px;
+    }
+
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding: 0px 100px;
+}
+
+.left h3 {
+    padding: 10px 0px;
+    font-size: 20px;
+}
+
+.left button {
+    width: fit-content;
+    padding: 15px 40px;
+    margin: 35px 0px;
+    transition: transform 0.3s;
+    border-color: black;
+}
+.left button:hover{
+    transform: scale(1.1);
+    background-color:black;
+    color: rgb(255, 255, 255);
+    
+}
+
+
+.right {
+    padding: 0px 100px;
+    padding-bottom: 50px;
+}
+
+.right button {
+    background-color: lightgray;
+    border-radius: 10px;
+    border-color: rgba(112, 108, 108, 0.699);
+    margin: 6px;
+    padding: 10px 20px;
+    transition: transform 0.1s;
+}
+
+.right button:hover {
+    transform: scale(1.1);
+    background-color: b;
+}
+
+
+.right h3 {
+    padding: 10px 0px;
+    font-size: 20px;
+}
+
+.footer {
+    display: flex;
+    height: 25vh;
+    background-color: black;
+    color: aliceblue;
+    padding: 40px;
+}
+
+.footer p {
+    display: flex;
+    align-items: end;
+    text-align: center;
+}
+
+.leftfoot h4 {
+    font-size: 20px;
+    padding: 15px;
+    justify-self: start;
+
+}
+.leftfoot p{
+    font-size:.8rem ;
+}
+
+.rightfoot {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px; 
+}
+
+.endfooter {
+    display: flex;
+}
+
+
+.footer-col ul li a:hover {
+    color: #ffffff;
+    padding-left: 8px;
+}
+
+.footer-col .social-links a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover {
+    color: #24262b;
+    background-color: #ffffff;
+}
+
+
+@media(max-width: 767px) {
+    .footer-col {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width: 574px) {
+    .footer-col {
+        width: 100%;
+    }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
